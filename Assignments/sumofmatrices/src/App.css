@@ -1,0 +1,55 @@
+.container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  
+}
+
+.matrices {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.matrix, .result {
+  margin: 10px;
+}
+
+.row {
+  display: flex;
+}
+
+input {
+  width: 50px;
+  margin: 5px;
+  text-align: center;
+}
+
+.cell {
+  width: 50px;
+  margin: 5px;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid #333;
+  padding: 5px;
+}
+.size-inputs {
+  margin: 20px;
+}
+
+.size-inputs label {
+  margin: 0 10px;
+}
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: chocolate;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(171, 247, 222);
+}
