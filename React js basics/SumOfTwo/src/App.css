@@ -1,0 +1,29 @@
+.container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: darkblue;
+}
+
+h2 {
+  margin-top: 20px;
+  color: green;
+}
