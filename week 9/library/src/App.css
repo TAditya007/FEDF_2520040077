@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: Verdana, sans-serif;
+}
+.container {
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+
+.topbar {
+  background-color: #0d3b66;
+  color: #fff;
+  padding: 18px;
+  text-align: center;
+}
+
+.nav {
+  margin-top: 10px;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 12px;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+.nav a.active {
+  background-color: #145da0;
+}
+
+.content {
+  padding: 24px;
+}
+
+.card {
+  max-width: 650px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.form {
+  display: grid;
+  gap: 16px;
+}
+
+.field {
+  display: grid;
+  gap: 6px;
+}
+
+input,
+select {
+  padding: 10px;
+  border: 1px solid #bfc7d1;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+input:focus,
+select:focus {
+  outline: 2px solid #145da0;
+  border-color: #145da0;
+}
+
+button,
+.action-btn {
+  background-color: #0d3b66;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.secondary-btn {
+  background-color: #6c757d;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.field-error {
+  color: #b00020;
+  font-size: 14px;
+}
+
+.success-msg {
+  margin-top: 18px;
+  color: #0a7a2f;
+  font-weight: bold;
+}
