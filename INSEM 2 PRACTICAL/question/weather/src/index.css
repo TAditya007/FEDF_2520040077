@@ -1,0 +1,15 @@
+
+body{
+    background-color: rgb(63, 200, 245);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    border-radius:12px;  
+    width:300px;
+    margin:0 auto;
+    padding:20px;
+    border:1px solid black;
+    border-radius:5px;
+    background-color: antiquewhite;
+}

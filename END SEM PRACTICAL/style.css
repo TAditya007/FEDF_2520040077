@@ -1,0 +1,23 @@
+#form,
+#registerForm {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	margin: 40px auto;
+	padding: 20px;
+	width: 320px;
+	box-sizing: border-box;
+	text-align: center;
+    border-radius: 10px;
+}
+
+#form button,
+#registerForm button {
+	background-color: #4caf50;
+	color: white;
+	border: none;
+	border-radius: 8px;
+	padding: 10px 16px;
+	margin-top: 12px;
+	cursor: pointer;
+}
